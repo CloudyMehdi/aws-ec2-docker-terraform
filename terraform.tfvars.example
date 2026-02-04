@@ -1,0 +1,9 @@
+region = "us-east-1"
+
+docker_image = "cloudymehdi/hello-from-mehdi"
+
+instance_type = "t2.micro"
+#If you want to stay in the free-tier, you should use "t2.micro" as the instance type.
+#Some regions do not support t2.micro anymore, if so, you can use "t3.micro" instead.
+
+project_name = "Hello-from-Mehdi"
